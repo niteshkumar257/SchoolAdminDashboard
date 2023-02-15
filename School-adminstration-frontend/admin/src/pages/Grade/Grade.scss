@@ -1,0 +1,177 @@
+$main-color:#1377C0;
+.grade-container
+{
+    display: flex;
+ 
+    .grade{
+        flex: 4;
+        .grade-page{
+            display: flex;
+        flex-direction: column;
+        gap: 20px;
+        // padding: 1rem 0 0 4rem ;
+            .grade-detail-heading{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                span{
+                    font-size: 1.5rem;
+                    color: black;
+                    font-weight: 500;
+                }
+                .grade-detail-search{
+                    display: flex;
+                    gap: 10px;
+                    
+                    input{
+                        flex: 1;
+                        width: 140px;
+                        height: 50px;
+                        padding-left:4px ;
+                         border-radius: 9px;
+                         border: 1px solid gray;
+                    }
+                    .grade-detail-search-btn{
+                        flex: 1;
+                        button{
+                            height: 54px;
+                            width: 150px;
+                            background-color:$main-color;
+                            color: white;
+                        font-weight: 600;
+                        font-size: 1rem;
+                            border-radius: 9px;
+                            border: none;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+           
+        }
+    }
+}
+// .Updatebutton{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 30px;
+//     width: 70px;
+//     background-color: #009df1;
+//     border-radius: 9px;
+//     border: none;
+//     font-size: .8rem;
+//     color: white;
+//     font-weight: 600;
+//     cursor: pointer;
+
+// }
+
+    button{
+    cursor: pointer;
+    height: 30px;
+    width: 70px;
+        border-radius: 9px;
+        color: rgb(0, 0, 0);
+        font-size:1rem;
+        // color:white
+      text-decoration: underline;
+    //   text-decoration-color: #009df1;
+        border: none;
+        font-weight: 500;
+        background-color: white;
+    }
+    .modal-subject-container{
+    flex:1.6;
+    display:flex;
+    column-gap:20px;
+ 
+    align-items:center;
+    .modal-subject-container-main{
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+    }
+}
+
+.modal-subject-container{
+    flex:1.6;
+    display:flex;
+    column-gap:20px;
+ 
+    align-items:center;
+    .modal-subject-container-main{
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+    }
+}
+
+
+// classes for modals
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    .heading{
+        span{
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: rgb(38, 38, 38);
+        }
+    }
+    .student-info{
+        display: flex;
+        column-gap: 30px;
+
+.student-info-modal{
+    display: flex;
+     column-gap: 10px;
+        label{
+ font-size: 1rem;
+            font-weight: 600;
+            color: rgb(83, 83, 83); 
+        }
+        span{
+              font-size: 1rem;
+            font-weight: 600;
+            color: rgb(40, 40, 40); 
+        }
+        
+    }
+}
+    .test_id_select{
+       display: grid;
+       grid-template-columns: 0.5fr;
+
+        width: 100%;
+       
+    }
+    .modal-subject-main-container{
+        display: grid;
+        grid-row-gap: 20px;
+    .modal-subject-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+    .form-button-submit{
+        display: flex;
+      
+        justify-content: flex-end;
+        button{
+            height: 54px;
+            width: 150px;
+            background-color:$main-color;
+            color: white;
+        font-weight: 600;
+        font-size: 1rem;
+            border-radius: 9px;
+            border: none;
+            text-decoration: none;
+        }
+    }
+}
+}

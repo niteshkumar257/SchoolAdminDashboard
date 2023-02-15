@@ -1,0 +1,270 @@
+$main-color:#1377C0;
+.dash
+{
+
+  
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+    .top
+    {
+     
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 1rem;
+         
+   
+     width: 98%;
+     gap: 2rem;
+   
+     margin-bottom: 3rem;
+     box-shadow: 0px 5px 5px 0px rgba(194,194,194,0.75);
+     -webkit-box-shadow: 0px 5px 5px 0px rgba(194,194,194,0.75);
+     -moz-box-shadow: 0px 5px 5px 0px rgba(194,194,194,0.75);
+     border-radius: 9px;
+     .school-image{
+      flex: .7;
+      height: 140px;
+      width: 140px;
+      border-radius: 9px;
+      background-color: rgba(199, 244, 255, 0.064);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img{
+        width: 100px;
+        height: 100px;
+
+      }
+     }
+     .basic-info{
+    flex: 3.5;
+      height: 30vh;
+      
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-evenly;
+    .Name-of-school
+    {
+      
+      display: flex;
+      justify-content: flex-start;
+      
+      
+    
+    
+      flex-direction: column;
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: $main-color;
+      li {
+      
+       list-style: none;
+       span{
+        
+        color: #3a3a3a;
+       }
+      }
+    }
+    .basic-info-container
+    {
+        
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+      .basic-info-container-components
+      {
+    display: flex;
+    row-gap: 20px;
+   
+    gap: 20px;
+        .info-container
+        {
+          color:  $main-color;
+            flex: 4;
+            height: 5vh;
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.179);
+            font-weight: 800;
+            align-items: center;
+        gap: 10px;
+       
+             
+            li{
+              display: flex;
+              gap:10px;
+                list-style: none;
+                font-size: 1rem;
+                label{
+                color: $main-color;
+                }
+                span{
+                  color: #797979;
+                  font-weight: 500;
+                }
+              
+            }
+        }
+    }
+    }
+}
+    }
+    .bottom
+    {
+        display: flex;
+     
+        width: 98%;
+        gap:20px;
+        .left-container
+        {
+            flex: 1;
+           
+          .widgest-container{
+            border-radius: 9px;
+            box-shadow: 0px 5px 5px 0px rgba(194,194,194,0.75);
+            -webkit-box-shadow: 0px 5px 5px 0px rgba(194,194,194,0.75);
+            -moz-box-shadow: 0px 5px 5px 0px rgba(194,194,194,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 25vh;
+    
+  
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        .title{
+            font-size: 20px;
+            font-weight: 600;
+            color: rgb(131, 131, 131);
+        }
+        .count{
+            font-size: 35px;
+            font-weight: 600;
+            color: black;
+        }
+    }
+    .right{
+      background-color: rgba(153, 201, 232, 0.168);
+      height: 120px;
+      width: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 9px;
+    
+        img{
+            height: 80px;
+            width: 80px;
+            
+        }
+      
+    }
+}
+           
+            
+        }
+        .mid-container{
+      flex:1;
+          .widgest-container{
+            border-radius: 9px;
+            box-shadow: 0px 5px 5px 0px rgba(194,194,194,0.75);
+            -webkit-box-shadow: 0px 5px 5px 0px rgba(194,194,194,0.75);
+            -moz-box-shadow: 0px 5px 5px 0px rgba(194,194,194,0.75);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 25vh;
+            
+         
+            .left{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-self: center;
+                .title{
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: rgb(146, 144, 144);
+                }
+                .count{
+                    font-size: 35px;
+                    font-weight: 600;
+                    color: black;
+                }
+            }
+            .right{
+              background-color: rgba(199, 244, 255, 0.297);
+              height: 120px;
+              width: 120px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 9px;
+                img{
+                    height: 80px;
+                    width: 80px;
+                }
+            }
+        }
+        }
+        .right-container
+        {
+            flex: 1;
+            .widgest-container{
+              border-radius: 9px;
+              box-shadow: 0px 5px 5px 0px rgba(194,194,194,0.75);
+              -webkit-box-shadow: 0px 5px 5px 0px rgba(194,194,194,0.75);
+              -moz-box-shadow: 0px 5px 5px 0px rgba(194,194,194,0.75);
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+              height: 25vh;
+              
+            
+          
+              .left{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-self: center;
+                  .title{
+                      font-size: 20px;
+                      font-weight: 600;
+                      color: rgb(65, 64, 64);
+                  }
+                  .count{
+                      font-size: 35px;
+                      font-weight: 600;
+                      color: rgb(0, 0, 0);
+                  }
+              }
+              .right{
+                background-color: rgba(156, 234, 254, 0.297);
+                height: 120px;
+                width: 120px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 9px;
+                  img{
+                      height: 80px;
+                      width: 80px;
+                  }
+              }
+          }
+            
+           
+           
+
+        }
+    }
+}
